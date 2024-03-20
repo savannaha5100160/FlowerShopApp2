@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace: ShoppingApp.Views"
+             x:Class="ShoppingApp.MainPage">
+
+    <TabbedPage>
+        <NavigationPage Title="Profile">
+            <x:Arguments>
+                <views:ProfilePage />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Items">
+            <x:Arguments>
+                <views:ItemsPage />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Cart">
+            <x:Arguments>
+                <views:CartPage />
+            </x:Arguments>
+        </NavigationPage>
+    </TabbedPage>
+</TabbedPage>
+
+    

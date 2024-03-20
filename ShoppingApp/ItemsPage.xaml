@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShoppingApp.Views.ItemsPage">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame Padding="10" Margin="10" BackgroundColor="#F5F5F5">
+                <Label Text="Rose" FontSize="16" HorizontalOptions="Center" />
+                <Label Text="Red, fragrant flower" FontSize="12" HorizontalOptions="Center" />
+
+                <Button Text="Add to Cart" Clicked="OnAddToCartClicked" />
+            </Frame>
+            <Frame Padding="10" Margin="10" BackgroundColor="#F5F5F5">
+                <Label Text="Rose" FontSize="16" HorizontalOptions="Center" />
+                <Label Text="Red, fragrant flower" FontSize="12" HorizontalOptions="Center" />
+
+                <Button Text="Add to Cart" Clicked="OnAddToCartClicked" />
+            </Frame>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
+
+       
+          
+
+         
+      
+   
+    
+     
